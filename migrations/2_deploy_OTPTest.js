@@ -1,8 +1,8 @@
-var HarmonyERC20 = artifacts.require('HarmonyERC20')
+var HarmonyERC20 = artifacts.require('OTPTest')
 
 module.exports = function (deployer, network, accounts) {
-  const name = 'HarmonyERC20'
-  const symbol = 'H20'
+  const name = 'OTPTest'
+  const symbol = 'OTPTest'
   const amount = 1000000
   const tokens = web3.utils.toWei(amount.toString(), 'ether')
 
